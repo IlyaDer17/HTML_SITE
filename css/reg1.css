@@ -1,0 +1,88 @@
+form {
+  width: 50%;
+  margin: 100px auto;
+  font: 700 .9em Arial, serif;
+}
+<!margin - устанавливает величину отступа от каждого края элемента.
+ Отступом является пространство от границы текущего элемента до внутренней границы его родительского элемента>
+ <!font - шрифт, width - ширина
+
+
+div {
+  width: 100%;
+  padding-bottom: 20px;
+  position: relative;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+p {
+  position: relative;
+  padding-left: 20px;
+}
+
+#soglasie_podpis{
+	font-size:12px;
+}
+
+#soglasie{
+	position: relative;
+	top: 0.2rem;
+	right: 0rem;
+	left: -5rem;
+	bottom: 0rem;
+}
+
+/*К любому элементу можно обратится по его id через решетку. Настроили положение на странице элемента согласие на обработку и квадратика с галочкой.*/
+
+p input {
+  width: 220px;
+  position: relative;
+}
+
+
+p input, footer button {
+  position: absolute; 
+  left: 100px;
+  margin-bottom:40px; /* 40 пикселей расстояние между элементами; */
+}
+
+
+/* 40 пикселей расстояние между элементами; */
+
+
+
+
+form button {
+  position: relative;  /* Позиция:связанная. Это значит что элемент позиционируется от его начального положения; */
+  top: -25px; /* top - верх. Устанавливаем расположение элемента на странице */
+  left: 15px;
+  width: 150px; /* width - ширина элемента*/
+  color: #fff; /* color - цвет элемента (зеленый) */
+  background-color: #029E0A; /* background-color фон-цвет */
+  border-radius: 100px; /* border-radius - граница-радиус, это радиус скругления */
+  border: none; /* border - граница */
+  height: 20px; /* height - высота */
+}
+
+
+
+p input + span {
+  position: absolute;
+  left: 330px;
+  width: 200px;
+}
+
+p input:invalid + span::after {
+  content: 'x';
+  color: red;
+  position: absolute;
+}
+
+
+
+p input:valid + span::after {
+  content: url(http://htmlbook.ru/example/images/ok.png); 
+  color: green;
+  position: absolute;
+}

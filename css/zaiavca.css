@@ -1,0 +1,94 @@
+html{
+   height: 100%;
+   box-sizing: border-box;
+}
+*{
+	box-sizing: inherit;
+}
+body{
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	line-height: 1.4;
+}
+input, textarea{
+outline: 0;
+font-size: 16px;
+width: 100%; 
+}
+label{
+font-size: 16px;
+}
+.container{
+	margin: 0px;
+	max-width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.form-group{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin: 0 auto;
+	width: 300px;
+}
+.field-group{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-bottom: 15px;  
+}
+.md-field{
+	background-color: rgba(0,0,0, .09);
+	border: 1px solid rgba(0,0,0, .5);
+	height:30px;
+	border-radius: 3px; 
+}
+.field-text{
+	height: 100px;
+}
+.btn-sabmit{
+	background-color: #008800;
+	height: 40px;
+	border: none;
+	color: #fff;
+	border-radius: 3px;  
+}
+@media screen and(max-width: 1260px){
+	.container{
+		width: 1140px;
+	}
+}
+@media screen and(max-width: 768px){
+	.container{
+		width: 710px;
+	}
+	.form-group{
+		width: auto;
+	}
+}
+
+footer, header{
+	background-color: #F0FFFF;
+	color: black;
+	padding: 2rem;
+}
+
+
+.support{
+	position: relative;
+	top:-1rem;
+	color:black;
+}
+
+address {
+	position: relative;
+	top:5rem;
+	left:5rem;
+	color:black;
+}
+
+header a,ul,li {
+	color:grey;
+}

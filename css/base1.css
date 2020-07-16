@@ -1,0 +1,83 @@
+header img{
+	position: relative; /*position - позиция relative - связанный*/
+	left:-15rem;
+	bottom:0rem;
+	padding:1rem;/*padding - рама как у картины. Есть padding left right*/
+}
+footer img{
+	position: relative;
+	top: 1.5rem;
+	bottom: 5rem;
+	left: -20rem;
+	padding: 1rem;
+}
+
+section#intro-header h1{
+	position: relative;
+	bottom: 15rem;
+}
+
+header a{
+	position: relative;
+	top: 2rem;
+	bottom: 0rem;
+	left: 0rem;
+	padding: 0rem;
+	font-size:20px;
+	color:#F0FFFF;	
+}
+
+section#intro-header{
+background-image: url(../imgs/gorod.png); 
+/*!background - фон image-картинка>*/
+background-size: cover; 
+/*!background - фон size - размер 
+Масштабирует изображение с сохранением пропорций так,
+чтобы его ширина или высота равнялась ширине 
+или высоте блока.>*/
+}
+
+section#intro-header .wrap-headline{
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+section#intro-header h1,h2 {
+	color: #fff;
+}
+section#intro-header h2{
+	font-size: 1.5rem;
+}
+
+
+footer{
+
+	width: 200%;
+	position: relative;
+	top: 3.8rem;
+	bottom: 0rem;
+	left: -30rem;
+	right: 0rem;
+}
+
+footer address{
+	position: relative;
+	top: 3.8rem;
+	bottom: 0rem;
+	left: -20rem;
+	right: 0rem;
+}
+
+ .support{
+ 	position: relative;
+	top: 0.5rem;
+	bottom: 0rem;
+	left: -25rem;
+	right: 0rem;
+	color:black;
+ }
+
+ header a,ul,li {
+	color:grey;
+}

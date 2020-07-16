@@ -1,0 +1,119 @@
+header{
+	position: relative;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+header img{
+	position: relative;
+	top: 0rem;
+	bottom: 5rem;
+	left: -20rem;
+	padding: 1rem;
+}
+
+footer img{
+	position: relative;
+	top: 1.5rem;
+	bottom: 5rem;
+	left: -20rem;
+	padding: 1rem;
+}
+
+header a{
+	position: relative;
+	top: 2rem;
+	bottom: 0rem;
+	left: 0rem;
+	padding: 0rem;
+	font-size:20px;
+	color:#808080;	
+}
+
+
+.ploshadca {
+	background-image: url(../imgs/ploshadca.jpg);
+	background-size: cover;
+}
+
+.ploshadca:hover{
+	background-image: url(../imgs/remont.png);
+	background-size: cover;
+	-webkit-transform: scale(1.5);
+	transition: all 1s scale; 
+}
+
+
+
+section#intro-header{
+background-image: url(../imgs/gorod1.jpg);
+background-size: cover; 
+}
+
+section#intro-header .wrap-headline{
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+section#intro-header h1,
+section#intro-header h2 {
+	color: #fff;
+}
+section#intro-header h2{
+	font-size: 1.5rem;
+}
+section#about img{
+	margin-top: 6.5rem;
+	margin-bottom: 5rem;
+}
+section#about h3{
+	margin-top: 4rem;
+}
+section#features{
+	background-color: #eef2f5;
+	border-bottom: 0.1rem solid #e9e9e9;
+	border-top: 0.1rem solid #e9e9e9;
+}
+section#features *{
+	color: #657c8e;
+}
+section#features .feature{
+	padding-top: 2rem;
+	padding-bottom:4rem;
+	text-align: center;
+}
+section#team ul{
+	margin: 3rem;
+}
+section#team li{
+	margin: 0.5rem;
+	text-decoration-color: #f8f8f8;
+}
+
+footer{
+	background-color:#FFF5EE;
+	margin:0rem; 
+}
+
+footer address{
+	position: relative;
+	top: 3.8rem;
+	bottom: 0rem;
+	left: -20rem;
+	right: 0rem;
+}
+
+.support{
+ 	position: relative;
+ 	color:black;
+	top: 0rem;
+	bottom: 0rem;
+	left: -25rem;
+	right: 0rem;
+ }
+
+ #Zayavki h5,p,img{
+	margin:0px;
+	padding: 0px;
+	color:#696969;
+}

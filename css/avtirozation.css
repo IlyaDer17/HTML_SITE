@@ -1,0 +1,30 @@
+body{
+  background-color: #dddddd; 
+}
+
+#enter{
+  margin: 50px;
+  background-color: #ffe4b5;
+  border: 3px solid #FF4500;
+  border-radius: 13px;
+  width: 300px;  
+}
+
+h2{
+  margin-left: 20px;
+  color: #800000;
+  font-style: italic; 
+}
+
+
+#enter div{
+  margin: 10px;
+}
+
+#enter input{
+  margin-right: 15px;
+}
+
+#enter div.field-group {clear:both; text-align:right;}
+
+#enter div.button {clear:both; text-align:center;}
